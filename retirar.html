@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/retirar.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <h2>Ingrese La Cantidad que desea Retirar</h2>
+        <div class="caja">
+            <input 
+                id="txtRetirar"
+                type="number" class=""
+                style="width: 100%; height:40%; font-size: 30px; text-align: center;"
+                
+                >
+        </div>
+        <div class="botones">
+            <button 
+                onclick="retirarPorBoton(100)"
+                class="R100">
+                100
+            </button>
+            <button onclick="retirarPorBoton(500)" class="R500">
+                500
+            </button>
+            <button onclick="retirarPorBoton(1000)" class="R1000">
+                1000
+            </button>
+            <button onclick="retirarPorBoton(2000)" class="R2000">
+                2000
+            </button>
+            <button 
+                onclick="retirarSaldo()"
+                class="Retirar">
+                Retirar
+            </button>
+            <button onclick="salirACaja()" class="Salir">
+                Salir
+            </button>
+        </div>
+    </div>
+
+    <script src="./js/inicio.js"></script>
+</body>
+
+</html>

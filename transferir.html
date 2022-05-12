@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/retirar.css">
+    <title>Transferir</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <center><h1>Transferencia</h1></center>
+        <h2>Usuario al que desea tranferir</h2>
+        <div class="caja">
+            <input 
+                id="txtUsuario"
+                type="text"
+                style="width: 100%; height:40%; font-size: 30px; text-align: center;">
+        </div>
+        <h3>Ingrese la Cantidad para Transferir</h3>
+        <div class="cajaUsuario">
+            <input id="txtMonto" type="number" style="width: 100%; height:40%; font-size: 30px; text-align: center;">
+        </div>
+        <div class="botones">
+            <button  onclick="tranferir()" class="Enviar">
+                Transferir
+            </button>
+            <button onclick="salirDeTransferencia()"class="Salir">
+                Salir
+            </button>
+        </div>
+    </div>
+
+    <script src="./js/transferencia.js"></script>
+</body>
+
+</html>

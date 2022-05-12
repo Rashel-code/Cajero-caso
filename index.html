@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <h2>INGRESE SU CODIGO</h2>
+        <!-- <input type="text" class="cajaImput" id="cajaPrincipal"> -->
+        <div class="Caja">
+            <input 
+                class="cajaImput" 
+                type="password" 
+                id="cajaPrincipal" 
+                disabled
+                maxlength="4">
+        </div>
+        <div class="Botones">
+            <button class="boton1" onclick="capturarValor(1)">
+                <span class="button_top"> 1 </span>
+            </button>
+            <button class="boton2" onclick="capturarValor(2)">
+                <span class="button_top"> 2
+                </span>
+            </button>
+            <button class="boton3" onclick="capturarValor(3)" >
+                <span class="button_top"> 3
+                </span>
+            </button>
+            <button class="boton4" onclick="capturarValor(4)" >
+                <span class="button_top"> 4
+                </span>
+            </button>
+            <button class="boton5" onclick="capturarValor(5)" >
+                <span class="button_top"> 5
+                </span>
+            </button>
+            <button class="boton6" onclick="capturarValor(6)" >
+                <span class="button_top"> 6
+                </span>
+            </button>
+            <button class="boton7" onclick="capturarValor(7)">
+                <span class="button_top"> 7
+                </span>
+            </button>
+            <button class="boton8" onclick="capturarValor(8)" >
+                <span class="button_top"> 8
+                </span>
+            </button>
+            <button class="boton9" onclick="capturarValor(9)">
+                <span class="button_top"> 9
+                </span>
+            </button>
+
+            <button class="boton10" onclick="borrarCaja()">
+                <span class="button_top"> Borrar
+                </span>
+            </button>
+
+            <button class="boton11" onclick="capturarValor(0)">
+                <span class="button_top"> 0
+                </span>
+            </button>
+            <button 
+                class="boton12" 
+                class="button_top" 
+                onclick='validarContrasenia()'>
+                <span class="button_top"> Entrar
+                </span>
+            </button>
+        </div>
+    </div>
+    <!-- <script src="js/script.js"></script> -->
+    <script src="./js/inicio.js"></script>
+</body>
+
+</html>
